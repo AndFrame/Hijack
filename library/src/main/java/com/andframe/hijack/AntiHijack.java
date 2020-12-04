@@ -94,7 +94,7 @@ public class AntiHijack {
 
 
     private void detectHijack() {
-        executor.schedule(detectHijackRunnable, 1, TimeUnit.SECONDS);
+        executor.schedule(detectHijackRunnable, 2, TimeUnit.SECONDS);
     }
 
     private Runnable detectHijackRunnable = new Runnable() {
